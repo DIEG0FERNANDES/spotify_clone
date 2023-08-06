@@ -61,7 +61,17 @@ const Home = StyleSheet.create({
   menuRodape: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-  }
+  },
+  headerRodape: {
+    backgroundColor: '#fff',
+    paddingHorizontal: 12,
+    paddingVertical: 8,
+    borderRadius: 25,
+  },
+  rodapeText: {
+    color: 'black',
+  },
+
 });
 
 export default Home;

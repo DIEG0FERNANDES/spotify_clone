@@ -4,6 +4,9 @@ import Home from "./HomeStyle";
 import notificationIcon from '../../img/notification.png';
 import recentIcon from '../../img/history_recent.png';
 import optionsIcon from '../../img/options.png';
+import homeIcon from '../../img/home.png';
+import shearchIcon from '../../img/shearch.png';
+import libraryIcon from '../../img/library.png';
 
 const HomeScreen = () => {
     return (
@@ -23,12 +26,12 @@ const HomeScreen = () => {
             </View>
             <View>
                 <View style={Home.containerCategoria}>
-                <TouchableOpacity style={Home.categoriaItem}>
-                    <Text style={Home.textItem}>Música</Text>
-                </TouchableOpacity>
-                <TouchableOpacity style={Home.categoriaItem}>
-                    <Text style={Home.textItem}>Podcasts e programas</Text>
-                </TouchableOpacity>
+                    <TouchableOpacity style={Home.categoriaItem}>
+                        <Text style={Home.textItem}>Música</Text>
+                    </TouchableOpacity>
+                    <TouchableOpacity style={Home.categoriaItem}>
+                        <Text style={Home.textItem}>Podcasts e programas</Text>
+                    </TouchableOpacity>
                 </View>
                 <View style={Home.containerPlaylist}>
                     <TouchableOpacity style={Home.playlistItem}>
@@ -86,14 +89,17 @@ const HomeScreen = () => {
                 </TouchableOpacity>
             </View> */}
             <View style={Home.menuRodape}>
-                <TouchableOpacity>
-                    <Text style={Home.headerText}>Inicio</Text>
+                <TouchableOpacity style={Home.headerRodape}>
+                    <Image source={homeIcon} style={Home.headerIconImage}></Image>
+                    <Text style={Home.rodapeText} >Inicio</Text>
                 </TouchableOpacity>
-                <TouchableOpacity>
-                    <Text style={Home.headerText}>Busca</Text>
+                <TouchableOpacity style={Home.headerRodape}>
+                    <Image source={shearchIcon} style={Home.headerIconImage}></Image>
+                    <Text style={Home.rodapeText} >Busca</Text>
                 </TouchableOpacity>
-                <TouchableOpacity>
-                    <Text style={Home.headerText}>minha biblioteca</Text>
+                <TouchableOpacity style={Home.headerRodape}>
+                    <Image source={libraryIcon} style={Home.headerIconImage}></Image>
+                    <Text style={Home.rodapeText} >minha biblioteca</Text>
                 </TouchableOpacity>
             </View>
         </ScrollView>
