@@ -12,6 +12,7 @@ const Home = StyleSheet.create({
     justifyContent: 'space-between',
     alignItems: 'center',
     marginBottom: 20,
+    
   },
   headerText: {
     color: '#fff',
@@ -21,7 +22,7 @@ const Home = StyleSheet.create({
   headerIcon: {
     backgroundColor: '#1DB954',
     paddingHorizontal: 12,
-    paddingVertical: 6,
+    paddingVertical: 8,
     borderRadius: 25,
   },
   headerIconImage: {

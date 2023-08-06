@@ -2,6 +2,8 @@ import { View, Text, TouchableOpacity, Image, ScrollView } from "react-native"
 import { StatusBar } from "react-native";
 import Home from "./HomeStyle";
 import notificationIcon from '../../img/notification.png';
+import recentIcon from '../../img/history_recent.png';
+import optionsIcon from '../../img/options.png';
 
 const HomeScreen = () => {
     return (
@@ -11,6 +13,12 @@ const HomeScreen = () => {
                 <Text style={Home.headerText}>Boa Noite!</Text>
                 <TouchableOpacity style={Home.headerIcon}>
                     <Image source={notificationIcon} style={Home.headerIconImage}></Image>
+                </TouchableOpacity>
+                <TouchableOpacity style={Home.headerIcon}>
+                    <Image source={recentIcon} style={Home.headerIconImage}></Image>
+                </TouchableOpacity>
+                <TouchableOpacity style={Home.headerIcon}>
+                    <Image source={optionsIcon} style={Home.headerIconImage}></Image>
                 </TouchableOpacity>
             </View>
             <View>
