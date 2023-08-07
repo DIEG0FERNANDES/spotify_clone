@@ -63,13 +63,13 @@ const Home = StyleSheet.create({
     justifyContent: 'space-between',
   },
   headerRodape: {
-    backgroundColor: '#fff',
+    // backgroundColor: '#fff',
     paddingHorizontal: 12,
     paddingVertical: 8,
     borderRadius: 25,
   },
   rodapeText: {
-    color: 'black',
+    color: 'white',
   },
 
 });
