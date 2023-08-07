@@ -10,7 +10,7 @@ import libraryIcon from '../../img/library.png';
 
 const HomeScreen = () => {
     return (
-        <ScrollView style={Home.container}>
+        <ScrollView contentContainerStyle={Home.container}>
             <StatusBar style="auto" />
             <View style={Home.header}>
                 <Text style={Home.headerText}>Boa Noite!</Text>
