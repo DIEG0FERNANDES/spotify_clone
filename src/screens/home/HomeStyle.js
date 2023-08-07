@@ -20,7 +20,7 @@ const Home = StyleSheet.create({
     fontWeight: 'bold',
   },
   headerIcon: {
-    backgroundColor: '#1DB954',
+    // backgroundColor: '#1DB954',
     paddingHorizontal: 12,
     paddingVertical: 8,
     borderRadius: 25,
