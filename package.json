@@ -12,19 +12,28 @@
     "@expo/webpack-config": "^18.1.2",
     "@react-navigation/material-bottom-tabs": "^6.2.16",
     "@react-navigation/native": "^6.1.7",
-    "expo": "~49.0.5",
-    "expo-status-bar": "~1.6.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-native": "0.72.3",
-    "react-native-paper": "^5.10.1",
-    "react-native-svg": "^13.10.0",
+    "expo": "^49.0.13",
+    "expo-status-bar": "^1.7.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-native": "^0.72.5",
+    "react-native-paper": "^5.10.6",
+    "react-native-safe-area-context": "^4.7.2",
+    "react-native-svg": "^13.14.0",
     "react-native-vector-icons": "^10.0.0",
-    "react-native-web": "~0.19.6"
+    "react-native-web": "^0.19.9"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0",
-    "react-native-svg-transformer": "^1.1.0"
+    "@babel/core": "^7.23.0",
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-brands-svg-icons": "^6.4.2",
+    "@fortawesome/free-regular-svg-icons": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@fortawesome/react-native-fontawesome": "^0.3.0",
+    "expo-fontawesome": "^0.1.2",
+    "react-native-svg-transformer": "^1.1.0",
+    "styled-components": "^6.0.8"
   },
   "private": true
 }
