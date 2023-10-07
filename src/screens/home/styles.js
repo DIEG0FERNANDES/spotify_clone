@@ -12,3 +12,9 @@ export const Texto = styled.Text`
   font-weight: bold;
   color: white;
 `;
+
+// filter list
+export const Filter = styled.div`
+  background-color: #8f8f8f;
+  flex-direction: row;
+`;

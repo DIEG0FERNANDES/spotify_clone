@@ -1,7 +1,7 @@
 import { StatusBar } from "expo-status-bar";
 import { Greetings, Head, Menu, Titulo } from "./styles";
 import { FontAwesomeIcon } from "@fortawesome/react-native-fontawesome";
-import { faBell } from "@fortawesome/free-regular-svg-icons";
+import { faBell, faGear, faRotateRight } from "@fortawesome/free-solid-svg-icons";
 
 /* Aplicação do header"cabeçalho" do aplicativo */
 
@@ -12,9 +12,9 @@ const Header = () => {
       <Head>
         <Greetings>Bom dia!</Greetings>
         <Menu>
-          <FontAwesomeIcon icon={faBell} color="#ffffff" />
-          <Titulo>icone recents</Titulo>
-          <Titulo>icone configuração</Titulo>
+          <FontAwesomeIcon icon={faBell} />
+          <FontAwesomeIcon icon={faRotateRight} />
+          <FontAwesomeIcon icon={faGear} />
         </Menu>
       </Head>
     </>

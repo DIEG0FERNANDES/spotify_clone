@@ -3,14 +3,16 @@
 import Header from "../../components/header";
 
 // Importação de estilização
-import { Container, Texto } from "./styles";
+import { Container, Filter, Texto } from "./styles";
 
 // conteudo pagina principal
 const HomeScreen = () => {
   return (
     <Container>
       <Header />
-      <Texto>Texto teste HomeScreen</Texto>
+        <Texto>Texto teste HomeScreen</Texto>
+      {/* <Filter>
+      </Filter> */}
     </Container>
   );
 };
