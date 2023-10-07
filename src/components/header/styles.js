@@ -16,3 +16,8 @@ export const Greetings = styled.Text`
   color: white;
   font-size: 15px;
 `;
+
+export const Menu = styled.div`
+  justify-content: center;
+  align-items: center;
+`;
