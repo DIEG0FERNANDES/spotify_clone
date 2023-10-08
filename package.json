@@ -17,11 +17,18 @@
     "expo": "~49.0.13",
     "expo-status-bar": "~1.6.0",
     "react": "18.2.0",
+<<<<<<< Updated upstream
     "react-native": "0.72.5",
+=======
+    "react-dom": "^18.2.0",
+    "react-native": "0.72.5",
+    "react-native-svg": "^13.14.0",
+>>>>>>> Stashed changes
     "styled-components": "^6.0.8"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "@babel/preset-env": "^7.22.20"
   },
   "private": true
 }
