@@ -6,6 +6,8 @@ export const Footer = styled.View`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  padding-left: 55px;
+  padding-right: 55px;
 `;
 
 // organização dos icones e texto
@@ -13,8 +15,8 @@ export const Div = styled.TouchableOpacity`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 5px;
-  margin: 15px;
+  padding: 10px;
+  margin: 10px;
 `;
 export const TitleMenu = styled.Text`
   color: white;

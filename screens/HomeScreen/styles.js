@@ -7,6 +7,7 @@ export const Body = styled.View`
 
 export const Container = styled.ScrollView`
   flex: 1;
+  margin: 18px;
 `;
 
 export const Texto = styled.Text`
