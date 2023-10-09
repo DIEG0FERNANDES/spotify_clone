@@ -9,16 +9,16 @@ const Header = () => {
     <>
       <StatusBar />
       <Cabeca>
-        <Greetings>Boa Tarde</Greetings>
+        <Greetings>Boa tarde</Greetings>
         <Menus>
           <Botao>
-            <FontAwesomeIcon icon={faBell} color="white" size={25} />
+            <FontAwesomeIcon icon={faBell} color="white" size={22} />
           </Botao>
           <Botao>
-            <FontAwesomeIcon icon={faClock} color="white" size={25} />
+            <FontAwesomeIcon icon={faClock} color="white" size={22} />
           </Botao>
           <Botao>
-            <FontAwesomeIcon icon={faGear} color="white" size={25} />
+            <FontAwesomeIcon icon={faGear} color="white" size={22} />
           </Botao>
         </Menus>
       </Cabeca>

@@ -5,14 +5,14 @@ export const Cabeca = styled.View`
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  margin-top: 40px;
-  margin-bottom: 15px;
+  margin-top: 50px;
+  margin-bottom: 10px;
 `
 // boas vindas ao app
 export const Greetings = styled.Text`
   color: white;
   font-size: 25px;
-  margin-left: 12px;
+  margin-left: 15px;
   font-weight: bold;
 `
 
